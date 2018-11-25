@@ -4,7 +4,7 @@
 
 <h3>Matériel : </h3>
 
-<h4>Utilisé : </h4>
+<h4>Utilisés : </h4>
 <ul>
   <li>Moteurs : Race Start BR 2212</li>
   <li>ESC : XXD HW30A</li>
