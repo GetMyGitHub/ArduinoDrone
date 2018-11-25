@@ -30,6 +30,7 @@
 <h3>Prérequis : </h3>
 <ul>  
   <li>Arduino IDE : Module pour MAJ firmware esp8266 : http://arduino.esp8266.com/staging/package_esp8266com_index.json</li>
+  <li>Carte Uno + Wifi (dérivée) : Pilote USB-TTL</li>
 </ul>
 
 
