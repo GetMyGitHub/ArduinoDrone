@@ -20,4 +20,13 @@
   <li>GPS : MakerHawk Ublox compatible NEO-6M STM32 positionnement GT-U7</li>
 </ul>
 
+<h3>Logiciels : </h3>
+
+<ul>
+  <li>Atom</li>
+  <li>Arduino IDE</li>
+<ul>
+
+
+
 http://arduino.esp8266.com/staging/package_esp8266com_index.json
