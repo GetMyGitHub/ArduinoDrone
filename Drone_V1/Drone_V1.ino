@@ -155,9 +155,6 @@ void loop() {
     int left_motor_command = motorSpeed + comp_left + (int) x1_stab;
     int right_motor_command = motorSpeed + comp_right + (int) x2_stab;
 
-//    Serial.print("left_motor_command = ");
-//    Serial.println(left_motor_command);
-
     if (left_motor_command < motorSpeed) {
       left_motor_command = motorSpeed;
     }
@@ -175,27 +172,14 @@ void loop() {
     }
     
     x1_last_error = x1_stab_error;
-    x2_last_error = x2_stab_error;
-
-    
-//    Serial.print("left_motor_command = ");
-//    Serial.println(left_motor_command);
-
-    //left.writeMicroseconds(motorSpeed + (int) x1_stab / 10);
-
-    // MOTOR CONTROL
-    //left.writeMicroseconds(1050);
-    //right.writeMicroseconds(1100);
-
-    //left.writeMicroseconds(motorSpeed + (int) x1_stab / 10);
-    //right.writeMicroseconds(motorSpeed + (int) x2_stab / 10);
+    x2_last_error = x2_stab_error;    
 
     left.writeMicroseconds(left_motor_command);
     right.writeMicroseconds(right_motor_command);
 
   }
 
-  // USER DIALOG
+  // USER CONTROL
   if (Serial.available() > 0) {
     int response = Serial.read();
     if (response == 49) {
