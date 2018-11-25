@@ -27,6 +27,9 @@
   <li>Arduino IDE</li>
 <ul>
 
+<h3>Prérequis : </h3>
+<ul>  
+  <li>Arduino IDE : Module pour MAJ firmware esp8266 : http://arduino.esp8266.com/staging/package_esp8266com_index.json</li>
+<ul>
 
 
-http://arduino.esp8266.com/staging/package_esp8266com_index.json
